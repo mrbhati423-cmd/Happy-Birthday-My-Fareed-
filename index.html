@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#090b20">
+<title>Happy Birthday Mere Bachhuuu ✨ | Himani to Fareed</title>
+<style>
+:root{--night:#08091c;--pink:#ffafd1;--rose:#ff6fa5;--gold:#ffe1a1;--cream:#fff6ec;--muted:#d5cce7;--line:rgba(255,220,163,.25)}
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:var(--night);color:var(--cream);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+body{background:radial-gradient(ellipse at 15% 12%,#292454 0,transparent 42%),radial-gradient(ellipse at 88% 80%,#421c48 0,transparent 40%),linear-gradient(145deg,#070819,#11142f 58%,#190e2b)}
+#sky{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
+.scene{position:absolute;inset:0;z-index:1;display:flex;align-items:center;justify-content:center;padding:76px 15px 86px;opacity:0;visibility:hidden;transform:translateX(26px) scale(.985);transition:opacity .5s ease,transform .65s cubic-bezier(.2,.8,.2,1),visibility .5s;overflow:hidden}
+.scene.active{opacity:1;visibility:visible;transform:translateX(0) scale(1)}
+.scene.leaving{transform:translateX(-24px) scale(.985);opacity:0}
+.content{width:min(850px,100%);max-height:100%;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#72537f transparent;text-align:center;padding:clamp(16px,3vh,30px) clamp(13px,3vw,32px)}
+.content::-webkit-scrollbar{width:4px}.content::-webkit-scrollbar-thumb{background:#72537f;border-radius:9px}
+.card{background:linear-gradient(135deg,rgba(33,30,68,.83),rgba(13,17,44,.82));border:1px solid var(--line);border-radius:28px;box-shadow:0 20px 70px #0005,inset 0 1px #ffffff0b;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.story-card{padding:clamp(19px,3.5vw,36px);text-align:left}
+.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.17em;font-size:.68rem;font-weight:800;text-align:center}
+h1,h2{font-family:Georgia,"Times New Roman",serif;font-weight:600}
+h1{font-size:clamp(2.35rem,7.5vw,5.1rem);line-height:1.06;margin:15px 0;color:#fff0d7;text-shadow:0 0 28px #ffd88a30}
+h2{font-size:clamp(1.65rem,4.8vw,2.65rem);line-height:1.12;text-align:center;color:#ffe8c9;margin:13px 0 10px}
+p{font-size:clamp(.97rem,2.15vw,1.1rem);line-height:1.78;color:#eee8fa;margin:0 0 15px;white-space:pre-line}
+.letter p:last-child{margin-bottom:0}
+.pink{color:var(--pink)}.heart{color:var(--rose);text-shadow:0 0 18px #ff6f9f75}
+.script{font-family:"Brush Script MT","Segoe Script",cursive;color:var(--pink);font-size:clamp(1.5rem,4.7vw,2.3rem);margin:8px 0}
+.subtitle{color:#d7cce8;text-align:center;font-size:.91rem;margin-bottom:9px}
+.divider-heart{color:var(--gold);text-align:center;letter-spacing:.45em;margin:12px 0 20px;font-size:.95rem}
+.divider-heart span{color:var(--pink);letter-spacing:0}
+.end-flourish{text-align:center;color:#ffb8d8;letter-spacing:.2em;margin:24px 0 0}
+.btn{border:1px solid #ffd88a66;border-radius:999px;padding:14px 24px;min-height:48px;background:linear-gradient(110deg,#ffe1a1,#ffafd1);color:#21122b;font-weight:800;box-shadow:0 8px 28px #0004;transition:transform .2s,filter .2s}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.07)}
+.intro .content{text-align:center;padding:clamp(22px,4vh,42px) clamp(18px,4vw,40px);position:relative}
+.intro-text{font-size:clamp(1.12rem,3vw,1.45rem);color:#ffe8f2;margin:10px 0}
+.subtext{max-width:520px;margin:0 auto 22px;color:#ddd5ed}
+.hint{font-size:.78rem;color:#c9bfde;margin:16px 0 0}
+.moon-wrap{position:absolute;right:clamp(18px,5vw,48px);top:clamp(16px,3vh,30px);width:clamp(52px,8vw,76px);margin:0;animation:moonFloat 5s ease-in-out infinite;z-index:2}
+.moon{width:100%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 30% 25%,#fffbe8,#ffe9b0 48%,#dca75f 80%);box-shadow:0 0 28px #ffdfa177,0 0 85px #ffc86b40;position:relative;overflow:hidden}
+.moon:after{content:"";position:absolute;right:-34%;top:-3%;width:88%;height:105%;border-radius:50%;background:#11132d;box-shadow:-7px 0 15px #11132d55}
+.moon-spark{position:absolute;right:-10px;top:4px;color:#fff0bd;font-size:1.7rem;animation:twinkle 2s infinite}
+@keyframes moonFloat{50%{transform:translateY(-7px)}}
+@keyframes twinkle{0%,100%{opacity:.45;transform:scale(.8)}50%{opacity:1;transform:scale(1.2)}}\n.extra-letter{margin-top:18px;padding-top:17px;border-top:1px solid #ffd88a24}.extra-letter p{color:#ffe1ef}
+/* Keep every paragraph in the same elegant italic serif font as the lower paragraphs. */
+p{font-family:Georgia,"Times New Roman",serif;font-style:italic}
+.extra-letter p{font-family:Georgia,"Times New Roman",serif;font-style:italic}\n::selection{background:#ffafd1;color:#24152d}\n.story-card{animation:cardGlow 8s ease-in-out infinite alternate}\n@keyframes cardGlow{from{box-shadow:0 20px 70px #0005,0 0 14px #ffafd108,inset 0 1px #ffffff0b}to{box-shadow:0 20px 70px #0005,0 0 28px #ffafd116,inset 0 1px #ffffff0b}}\n.content{animation:fadeUp .7s both}@keyframes fadeUp{from{opacity:.55;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+.music{position:fixed;z-index:12;top:max(12px,env(safe-area-inset-top));right:12px;display:flex;align-items:center;gap:8px;padding:7px 11px;border:1px solid #ffd88a48;border-radius:999px;background:#11132de8;color:#ffe9c9;font-size:.76rem;box-shadow:0 6px 25px #0004}
+.music button{border:0;border-radius:50%;width:34px;height:34px;background:#ffe1a1;color:#20122c;font-weight:900}
+.controls{position:fixed;z-index:10;left:0;right:0;bottom:0;display:flex;align-items:center;justify-content:space-between;gap:9px;padding:12px max(14px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left));background:linear-gradient(0deg,#080a1df2,#080a1d00);pointer-events:none}
+.controls>*{pointer-events:auto}
+.navbtn{min-width:78px;min-height:44px;border-radius:999px;padding:10px 14px;background:#1c1b3b;border:1px solid #ffffff26;color:#fff1d5;font-weight:700}
+.navbtn.primary{background:linear-gradient(110deg,#ffe1a1,#ffafd1);color:#21122b;border:0}
+.navbtn:disabled{opacity:.35}
+.progresswrap{display:flex;align-items:center;gap:9px;color:#d8cfe9;font-size:.76rem;white-space:nowrap}
+.progress{width:clamp(45px,14vw,110px);height:4px;background:#ffffff24;border-radius:8px;overflow:hidden}
+.progress span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--pink));transition:width .35s}
+@media(max-width:520px){
+ .scene{padding:64px 10px 75px}.content{padding:18px 14px}.story-card{padding:20px 16px}.eyebrow{font-size:.58rem;letter-spacing:.13em}.moon-wrap{right:15px;top:12px;width:48px}.intro .content{padding-top:66px}
+ p{font-size:.96rem;line-height:1.68}.subtitle{font-size:.82rem}.music{font-size:.69rem;gap:5px;padding:5px 7px}.music button{width:31px;height:31px}
+ .navbtn{min-width:66px;padding:9px 10px;font-size:.8rem}.progresswrap{font-size:.66rem;gap:5px}
+}
+@media(max-height:700px){.scene{padding-top:60px;padding-bottom:72px}.content{padding-top:14px;padding-bottom:14px}.intro .content{padding-top:64px;padding-bottom:18px}.moon-wrap{width:48px;right:12px;top:10px}h1{font-size:clamp(2rem,6vh,3.4rem);margin:8px 0}h2{font-size:clamp(1.45rem,4.5vh,2.3rem)}p{line-height:1.55;margin-bottom:11px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+</style>
+</head>
+<body>
+<canvas id="sky" aria-hidden="true"></canvas>
+<div class="music"><button id="musicBtn" aria-label="Play or pause song">▶</button><span id="musicLabel">Play our song 🎵</span><audio id="song" src="Tera%20Naam%20Doon.mp3" loop preload="metadata"></audio></div>
+
+<section class="scene active intro" data-title="For my bachhu">
+  <div class="content card">
+    <div class="moon-wrap"><div class="moon"></div><span class="moon-spark">✦</span></div>
+    <div class="eyebrow">A little surprise made with love · 4 November</div>
+    <p class="script">For my favourite person…</p>
+    <h1>Happy Birthday,<br><span class="pink">mere bachhuuu</span> <span class="heart">♥</span></h1>
+    <p class="intro-text">Mere Fareed, tumhare liye kuch hai… 🥹💗</p>
+    <p class="subtext">Ek chhoti si duniya, hamari saari yaadein, aur mere dil ki kuch baatein — sirf tumhare liye.</p>
+    <button class="btn" onclick="go(1)">Open your surprise ✨</button>
+    <p class="hint">Song ke liye upar 🎵 dabana · phir apni kahani padhna</p>
+  </div>
+</section>
+
+
+<section class="scene" data-title="Ek Request Se Shuru Hui Kahani ❤️🎮">
+  <div class="content card story-card">
+    <div class="eyebrow">Chapter 01 · Himani &amp; Fareed</div>
+    <h2>Ek Request Se Shuru Hui Kahani ❤️🎮</h2>
+    <p class="subtitle">21 May 2026 · Hamari pehli mulaqat</p>
+    <div class="divider-heart">✦ <span>♥</span> ✦</div>
+    <article class="letter"><p>Pata hai bachuu, kabhi-kabhi sochti hoon ki hamari kahani kitni ajeeb aur kitni pyaari tarah se shuru hui thi. 21 May 2026 ko hum game mein mile the. Us din tumhari ID se tumhari sister game khel rahi thi aur maine tumhari ID par request bhej di, kyunki mujhe laga tha ki koi ladki hai. Phir hamari thodi baat hui, naam pata chala aur uske baad tumhari sister chali gayi. Mujhe tab bilkul bhi nahi pata tha ki jis ID par main ek anjaan insaan se baat kar rahi hoon, usi ID se agle din mera bachuu aane wala hai. Mujhe kya pata tha ki ek chhoti-si game request meri zindagi ki itni pyaari kahani ka pehla page ban jayegi. Us waqt tum mere liye bas ek anjaan insaan the, lekin aaj tum meri zindagi ka woh hissa ho jise main kabhi khona nahi chahti. Agar us din woh request nahi bheji hoti, toh shayad aaj hamare paas ye itni saari yaadein hi nahi hoti. ❤️✨</p></article>
+    <div class="end-flourish">♡ &nbsp; ✧ &nbsp; ♡</div><div class="extra-letter"><p>Aur ek baat bachuuuu 🥹💗, mujhe hamari pehli mulaqat ki sabse pyaari baat ye lagti hai ki humein tab bilkul idea nahi tha ki aage chal kar hum ek-doosre ke liye itne special ho jayenge. Bas ek request, thodi si baat aur phir agle din ek aur game — lekin aaj wahi chhoti si shuruaat mere liye ek priceless memory ban gayi hai. Agar kabhi tumhe lage ki koi chhoti si cheez matter nahi karti, toh hamari kahani yaad karna, kyunki hamari itni pyaari story bhi ek chhoti si request se hi shuru hui thi. 🌙⭐💌🧸❤️</p></div>
+  </div>
+</section>
+
+
+<section class="scene" data-title="Mera Faah Faah Wala Bachhu 😂💗">
+  <div class="content card story-card">
+    <div class="eyebrow">Chapter 02 · Himani &amp; Fareed</div>
+    <h2>Mera Faah Faah Wala Bachhu 😂💗</h2>
+    <p class="subtitle">Agle din · Pehli bonding</p>
+    <div class="divider-heart">✦ <span>♥</span> ✦</div>
+    <article class="letter"><p>Agle din jab mera bachuu us ID se aaya aur hamne saath mein game khela, tab hamari kahani ka asli maza shuru hua. 😂❤️ Maine kahin se Faah Faah wala meme suna tha aur pata nahi mujhe kya maza aa raha tha, main baar-baar wahi bolkar tumhe irritate kar rahi thi. Aur tumhara bachuu bhi kya karta, meri bakwaas sunta raha. 😂 Phir ham game bhi haar gaye, lekin pata hai, us din haar kar bhi maine kuch bahut pyaara jeeta tha — tumhare saath ek achhi bonding. Hamari mulaqat ko bas ek hi din hua tha, phir bhi aisa lag raha tha jaise ham kaafi achhe se baat kar sakte hain. Tab na mujhe pata tha ki tum mere liye itne special ban jaoge, na tumhe pata tha ki tumhari life mein Himani naam ki ye Faah Faah bolne wali ladki itni important ho jayegi. Aaj jab us din ke baare mein sochti hoon na, toh mann karta hai ki kaash woh chhote-chhote moments phir se jee paati. Kyunki tab hamein nahi pata tha ki hum apni favourite memories bana rahe hain. 🥹💕</p></article>
+    <div class="end-flourish">♡ &nbsp; ✧ &nbsp; ♡</div><div class="extra-letter"><p>Aur ab jab bhi koi Faah Faah bolega na, mujhe shayad tumhari yaad aa jayegi. 😂💗 Tumhe irritate karna, saath game khelna aur phir haar jaana — us waqt ye sab bas masti thi, lekin aaj ye hamari kahani ke woh moments hain jin par main muskura sakti hoon. Mujhe hamari ye silly si memories bahut pyaari hain, kyunki inmein kisi dikhave ki zaroorat nahi thi; bas hum the, hamari bakwaas thi aur ek nayi si bonding thi. Mere Faah Faah wale bachuu, thank you meri itni saari yaadon ka hissa banne ke liye. 😂🎮💕✨</p></div>
+  </div>
+</section>
+
+
+<section class="scene" data-title="Teen Din Ki Doori, Phir Baatein ✨">
+  <div class="content card story-card">
+    <div class="eyebrow">Chapter 03 · Himani &amp; Fareed</div>
+    <h2>Teen Din Ki Doori, Phir Baatein ✨</h2>
+    <p class="subtitle">Dosti dheere-dheere gehri hone lagi</p>
+    <div class="divider-heart">✦ <span>♥</span> ✦</div>
+    <article class="letter"><p>Bachuu, phir hamari mulaqat ke agle hi din mere gaon ki light chali gayi thi aur teen din baad aayi. 😂 Us waqt toh bas light jaane ki pareshani thi, lekin light aane ke baad jab maine tumse dobara baat ki, toh hamari baatein phir se shuru ho gayi. Dheere-dheere ham roz baat karne lage, ek-doosre ko samajhne lage aur pata hi nahi chala ki kab ek anjaan insaan achha dost ban gaya. Phir hamne apni Instagram IDs share ki aur wahan bhi baatein hone lag gayin. Ab sirf game tak baat limited nahi thi; ham ek-doosre ki baatein sunte, apni cheezein share karte aur dheere-dheere ek-doosre ki aadat banne lage. Mujhe nahi pata tha ki ye chhoti-chhoti conversations ek din meri zindagi ki sabse special memories ban jayengi. Shayad pyaar hamesha pehli nazar mein nahi hota, kabhi-kabhi woh roz ki baaton, chhoti-si nok-jhok aur kisi ke online aane ka intezaar karne se bhi shuru hota hai. Aur hamare saath bhi kuch aisa hi hua tha, mera bachuu. ❤️🫶🏻</p></article>
+    <div class="end-flourish">♡ &nbsp; ✧ &nbsp; ♡</div><div class="extra-letter"><p>Kabhi-kabhi sochti hoon ki agar un teen dinon ke baad hum dobara baat hi na karte, toh kitni saari baatein, hasi-mazaak aur memories reh jaati jo kabhi bani hi nahi hoti. 🥺🌷 Lekin phir humne baat ki, Instagram share kiya aur dheere-dheere ek-doosre ko aur jaana. Mujhe achha lagta hai ki hamari dosti kisi jaldi mein nahi bani; woh roz ki baaton se, chhoti-chhoti cheezon se aur ek-doosre ko samajhne se bani. Aur isi liye hamari story ka ye hissa bhi mere dil ke bahut kareeb hai. 💌🌙🫶🏻</p></div>
+  </div>
+</section>
+
+
+<section class="scene" data-title="Mere Bachhu Ko Pyaar Kaise Hua? 🥹">
+  <div class="content card story-card">
+    <div class="eyebrow">Chapter 04 · Himani &amp; Fareed</div>
+    <h2>Mere Bachhu Ko Pyaar Kaise Hua? 🥹</h2>
+    <p class="subtitle">Woh jealousy jo feelings bata gayi</p>
+    <div class="divider-heart">✦ <span>♥</span> ✦</div>
+    <article class="letter"><p>Mera bachuu kehta hai na ki woh generally kisi ladki ko bhaav nahi deta tha, lekin pata nahi mere case mein kya ho gaya. 😂❤️ Dheere-dheere tumhe mere andar woh qualities dikhne lagi jo tum apni life partner mein chahte the, aur phir tumhe mujhse pyaar hone laga. Sabse pyaari baat toh ye hai ki shuru mein tumhe khud nahi pata tha ki tumhe mujhse pyaar ho gaya hai. Tumhe iska ehsaas tab hua jab main doosre ladkon ke saath game khelti thi aur tumhe jealousy hoti thi. Jitni zyada jealousy hoti gayi, utna hi tumhe apni feelings ka ehsaas hone laga. 😂🥹 Socho bachuu, jo insaan kisi ko bhaav nahi deta tha, woh ek din meri wajah se jealous hone laga. Mujhe ye sochkar bahut pyaara lagta hai ki tumne apne dil ko meri taraf jaane diya. Shayad tumne kabhi plan nahi kiya hoga ki tumhe Himani se pyaar ho jayega, lekin dil ko thodi pata hota hai ki use kiske liye feelings aa jayengi. Aur phir ek din tumhara dil chupke se mera ho gaya. ❤️</p></article>
+    <div class="end-flourish">♡ &nbsp; ✧ &nbsp; ♡</div><div class="extra-letter"><p>Mujhe tumhari feelings ka ye kissa isliye bhi pyaara lagta hai kyunki pyaar tumhe dheere-dheere samajh aaya. 🥹💞 Kabhi kisi ki yaad aana, uske saath waqt bitana achha lagna, aur phir uske kisi aur ke saath game khelne par ajeeb si jealousy mehsoos hona — kabhi-kabhi dil apni baat pehle hi bata deta hai aur dimaag ko baad mein samajh aata hai. Main chahti hoon ki ham hamesha apni feelings ek-doosre se honestly share kar sakein, bina darr aur bina guess kiye. Tum mere liye special ho, bachuu, aur main chahti hoon ki tumhe ye baat pyaar ke saath-saath respect aur care mein bhi mehsoos ho. 🧸💗✨</p></div>
+  </div>
+</section>
+
+
+<section class="scene" data-title="93, Faah Aur Woh Chhupa Hua Naam 💌">
+  <div class="content card story-card">
+    <div class="eyebrow">Chapter 05 · Himani &amp; Fareed</div>
+    <h2>93, Faah Aur Woh Chhupa Hua Naam 💌</h2>
+    <p class="subtitle">Ek raaz jiska jawab main hi thi</p>
+    <div class="divider-heart">✦ <span>♥</span> ✦</div>
+    <article class="letter"><p>Bachuu, tumhare bio mein woh 93 aur Faah likha hona aur mera baar-baar poochhna ki aakhir ye ladki hai kaun, mujhe aaj bhi yaad hai. 😂❤️ Tum kehte the ki tum ek ladki se pyaar karte ho, lekin uska naam nahi bataoge. Aur main bhi peeche pad jaati thi — kaun hai, kaun hai, batao na! Main kitna sochti thi, kitne andaaze lagati thi, lekin mujhe samajh hi nahi aata tha ki aakhir woh ladki kaun hai. Phir jab mujhse raha nahi gaya, toh maine tumse hi poochh liya. Aur jab didi ne tumse poochha ki woh ladki Himani toh nahi hai, toh pehle tumne mana kar diya, phir dheere-dheere haan kehne lage. 🥹 Aur main? Main chup rahi. Na haan bola, na na. Pata hai kyun? Kyunki mere dil mein bhi tumhare liye feelings thi, lekin main us waqt apni feelings ko keh nahi paayi. Kitna ajeeb tha na bachuu, tum jis ladki ko chhupakar apne dil mein rakh rahe the, woh ladki khud tumhari baaton mein tumhare pyaar ka jawab dhoondh rahi thi. Ek taraf tumhara raaz tha aur doosri taraf meri khamoshi — aur hum dono ke beech ek aisi kahani ban rahi thi jiska humein bhi poora andaaza nahi tha. 💗✨</p></article>
+    <div class="end-flourish">♡ &nbsp; ✧ &nbsp; ♡</div><div class="extra-letter"><p>Ab 93 aur Faah ka zikr aaye toh ye sirf bio ke words nahi lagte — inke peeche ek poora cute sa raaz chhupa tha. 😂💌 Main kitna poochhti thi aur tum kitna chhupate the! Aur phir jab didi ne Himani ka naam liya, toh kahani aur bhi interesting ho gayi. Main chup thi, lekin meri khamoshi ke peeche bhi feelings thi. Aaj main us waqt ko yaad karke sochti hoon ki hum dono apne-apne tareeke se ek hi kahani ko samajhne ki koshish kar rahe the. Kitna cute tha na, mere bachhu? 🥹🌙💗🔐</p></div>
+  </div>
+</section>
+
+
+<section class="scene" data-title="30 July: Hum Kya Hain? 💗">
+  <div class="content card story-card">
+    <div class="eyebrow">Chapter 06 · Himani &amp; Fareed</div>
+    <h2>30 July: Hum Kya Hain? 💗</h2>
+    <p class="subtitle">Dosti se relationship tak</p>
+    <div class="divider-heart">✦ <span>♥</span> ✦</div>
+    <article class="letter"><p>Phir aise hi hamari baatein chalti rahi, feelings badhti gayin aur woh din aa gaya jisne hamari kahani ko ek naya naam de diya. 30 July 2026 ko tumne poochha, “Hum kya hain?” Aur phir tumne mujhse poochha ki kya main tumhari girlfriend banna chahti hoon. ❤️🥹 Mera jawab tha haan. Bas bachuu, us ek haan ke saath hamari kahani ka ek naya chapter shuru ho gaya. Jo insaan kabhi game mein ek request se mila tha, jiske saath pehle Faah Faah par nok-jhok hoti thi, jo dheere-dheere mera achha dost bana, woh ab mera boyfriend tha. Mujhe nahi pata ki us waqt tum kitne khush the, lekin mere liye woh pal hamari story ke sabse special moments mein se ek hai. 2 August 2026 ko Girlfriend Day par maine tumhare liye story bhi lagayi thi. Ye dates mere liye sirf calendar ke numbers nahi hain, balki woh din hain jo mujhe yaad dilate hain ki hamari kahani kitni pyaari tarah se aage badhi. Aur aaj bhi main chahti hoon ki hum apni story mein aise hi naye-naye khoobsurat pages jodte rahein. 🫶🏻💞</p></article>
+    <div class="end-flourish">♡ &nbsp; ✧ &nbsp; ♡</div><div class="extra-letter"><p>30 July mere liye ek aisi date hai jise main apni story mein hamesha pyaar se yaad rakhna chahti hoon. 💖 Us din hamari dosti ko ek naya naam mila aur ek nayi journey shuru hui. Main chahti hoon ki hum apne relationship mein hamesha woh friendship bhi sambhaal kar rakhein jahan hum ek-doosre ke saath silly ho sakte hain, khul kar baat kar sakte hain aur bina pretend kiye apne asli selves reh sakte hain. Tum mere boyfriend ho, lekin tum mere woh dost bhi ho jiske saath main apni chhoti-chhoti baatein share karna chahti hoon. Happy Girlfriend Day wali memory bhi hamari kahani ka ek pyaara sa bookmark hai. 🎀💌🫶🏻</p></div>
+  </div>
+</section>
+
+
+<section class="scene" data-title="Mere Bachhu, Mujhe Maaf Kar Dena 🥺">
+  <div class="content card story-card">
+    <div class="eyebrow">Chapter 07 · Himani &amp; Fareed</div>
+    <h2>Mere Bachhu, Mujhe Maaf Kar Dena 🥺</h2>
+    <p class="subtitle">Ek sachchi maafi, sirf words nahi</p>
+    <div class="divider-heart">✦ <span>♥</span> ✦</div>
+    <article class="letter"><p>Bachuu, ab main tumse ek aisi baat kehna chahti hoon jo mere dil mein kaafi time se hai. Mujhe pata hai ki maine tumhe kai baar hurt kiya hai. Tum mujhe ek baat samjhate ho, batate ho ki kisi cheez se tumhe dukh hota hai, aur phir bhi kabhi-kabhi main wahi galti dobara kar deti hoon. Har baar main kehti hoon ki koshish karungi, lekin jab wahi baat phir ho jaati hai, toh mujhe samajh aata hai ki sirf keh dena kaafi nahi hota. Tumhara hurt hona bhi important hai, tumhari feelings bhi important hain, aur main nahi chahti ki tumhe baar-baar aisa lage ki tumhari baaton ki mere liye koi value nahi hai. Main ye nahi kahungi ki ab kabhi galti nahi hogi, kyunki main bhi seekh rahi hoon, lekin main sach mein apni galtiyon ko samajhna aur apne actions se change dikhana chahti hoon. Mujhe maaf kar dena bachuu, un saari baar ke liye jab meri wajah se tumhara dil dukha. Tum mere liye bahut special ho, aur main chahti hoon ki tumhe mere pyaar ka ehsaas sirf meri baaton se nahi, balki mere behaviour se bhi ho. ❤️🥺</p></article>
+    <div class="end-flourish">♡ &nbsp; ✧ &nbsp; ♡</div><div class="extra-letter"><p>Main chahti hoon ki meri maafi sirf ek emotional paragraph ban kar na reh jaaye, bachuu. 🥺❤️ Main tumhari baat dhyaan se sunna, usse samajhna aur phir apne actions mein uski kadar dikhana chahti hoon. Jab tum mujhe batao ki koi cheez tumhe hurt karti hai, toh main usse lightly lene ke bajaye us par sochun. Main galti kar sakti hoon, lekin main apni galti ko repeat karne ki aadat ko badalne ke liye sachchi koshish karna chahti hoon. Tumhari feelings mere liye important hain aur main chahti hoon ki tum hamare relationship mein heard, respected aur cared-for feel karo. Mere words se zyada meri consistent koshish tumhe mera pyaar dikhaye. 🌷🧸💗</p></div>
+  </div>
+</section>
+
+
+<section class="scene" data-title="27 October: Maine Tumhe Chuna ❤️‍🩹">
+  <div class="content card story-card">
+    <div class="eyebrow">Chapter 08 · Himani &amp; Fareed</div>
+    <h2>27 October: Maine Tumhe Chuna ❤️‍🩹</h2>
+    <p class="subtitle">Ek mushkil baat aur saath rehne ka faisla</p>
+    <div class="divider-heart">✦ <span>♥</span> ✦</div>
+    <article class="letter"><p>27 October 2026 ka din bhi main nahi bhoolna chahti, bachuu. Jab tumne mujhse poochha ki kya mujhe tumhare saath nahi rehna, kya mujhe break chahiye, aur kya main sach mein is relationship mein rehna chahti hoon, toh maine tumse kaha ki haan, main tumhare saath rehna chahti hoon. ❤️ Main chahti thi ki tum ye samjho ki hamare beech problems aa sakti hain, kabhi hum ek-doosre ko samajhne mein galti kar sakte hain, lekin iska matlab ye nahi ki mere dil mein tumhari jagah kam ho gayi hai. Uske baad hamara matter solve ho gaya, aur main chahti hoon ki hum dono apni baaton ko aur achhe se samajhna seekhein. Main tumhe sirf tab nahi chunna chahti jab sab kuch perfect ho, balki jab humein ek-doosre ko samajhne ki zaroorat ho, tab bhi tumhare saath milkar cheezein theek karna chahti hoon. Relationship mere liye sirf cute messages aur pyaari baatein nahi hai, bachuu; mere liye iska matlab ek-doosre ki feelings samajhna, apni galti maan lena aur milkar behtar banna bhi hai. Main chahti hoon ki hamare beech pyaar ke saath trust, respect aur sukoon bhi badhta rahe. 🫶🏻</p></article>
+    <div class="end-flourish">♡ &nbsp; ✧ &nbsp; ♡</div><div class="extra-letter"><p>Us din ki baat ne mujhe ye bhi yaad dilaya ki relationship mein sirf saath rehne keh dena hi nahi, balki ek-doosre ko samajhne ki zimmedari bhi hoti hai. ❤️‍🩹 Main chahti hoon ki ham dono apni baat keh sakein, ek-doosre ko dhyaan se sun sakein aur agar kabhi misunderstanding ho toh usse milkar suljha sakein. Tumhari feelings aur meri feelings dono ki jagah hai, aur hamara bond tab aur strong ho sakta hai jab ham dono ek-doosre ke saath honestly baat karein. Main tumhe choose karne ka matlab ye samajhti hoon ki main relationship ko care, respect aur effort ke saath nibhaane ki koshish karun. 🌙🤍🫶🏻</p></div>
+  </div>
+</section>
+
+
+<section class="scene" data-title="Mere Gulab Jamun Ke Deewane 🍯😂">
+  <div class="content card story-card">
+    <div class="eyebrow">Chapter 09 · Himani &amp; Fareed</div>
+    <h2>Mere Gulab Jamun Ke Deewane 🍯😂</h2>
+    <p class="subtitle">Tumhari chhoti-chhoti favourite cheezein</p>
+    <div class="divider-heart">✦ <span>♥</span> ✦</div>
+    <article class="letter"><p>Aur ab baat karte hain mere us bachuu ki jise meetha itna pasand hai, khaaskar gulab jamun! 😂🍯❤️ Sach mein, tumhari ye chhoti-chhoti pasand bhi mere liye special hai. Main chahti hoon ki tumhari favourite cheezon ko yaad rakhun, tumhari chhoti si khushi ki wajah banun aur tumhare chehre par smile laa sakun. Tumne mere birthday par mere liye itna kuch kiya tha, aur main us sab ko yaad karti hoon toh dil se achha lagta hai. Mujhe laga ki tumne mere din ko special banane ke liye itni mehnat ki, itna pyaar diya, aur ab tumhare birthday par meri bhi wish hai ki tumhe special feel karaun. Shayad main har cheez us tarah na kar paun jaise tumne mere liye ki thi, lekin jo bhi karungi, dil se karungi. Main chahti hoon ki tum jab ye pages padho, toh tumhe lage ki tumhari Himani ne tumhari chhoti-chhoti baatein bhi yaad rakhi hain. Aur haan bachuu, birthday par gulab jamun ki demand toh banti hai! 😂💗</p></article>
+    <div class="end-flourish">♡ &nbsp; ✧ &nbsp; ♡</div><div class="extra-letter"><p>Bachuuuu, agar main tumhare liye kabhi gulab jamun laaun toh yaad rakhna ki uske saath meri taraf se ek extra wali pyaari si wish bhi hogi. 😂🍯🎂 Tumhari favourite cheezein yaad rakhna mere liye ek chhota sa tareeka hai tumhe batane ka ki main tumhari baaton ko notice karti hoon. Main chahti hoon ki tumhari life mein aise bahut saare moments aayein jahan tumhe bina kisi bade reason ke bhi khushi mile — favourite mithai, achhi news, sukoon wala din, aur apne logon ke saath hasi. Tum deserve karte ho ki tumhe pyaar aur appreciation mile, sirf birthday par nahi, aam dinon mein bhi. 🧸💛🌸</p></div>
+  </div>
+</section>
+
+
+<section class="scene" data-title="Happy Birthday, Mere Fareed 🥹❤️">
+  <div class="content card story-card">
+    <div class="eyebrow">Chapter 10 · Himani &amp; Fareed</div>
+    <h2>Happy Birthday, Mere Fareed 🥹❤️</h2>
+    <p class="subtitle">Final letter · Dil se sirf tumhare liye</p>
+    <div class="divider-heart">✦ <span>♥</span> ✦</div>
+    <article class="letter"><p>Happy Birthday, Mere Bachhu, Mere Fareed! 🎂❤️🥹</p><p>Aaj tumhara din hai, aur main chahti hoon ki tum ye baat dil se mehsoos karo ki tum mere liye kitne special ho. Kabhi-kabhi mujhe lagta hai ki tumne mere birthday par mere liye itna kuch kiya, itni khushiyan di, aur main tumhare birthday ke liye shayad utna nahi kar paayi jitna main chahti thi. Lekin bachuu, main chahti hoon ki tum mere is chhote se surprise mein meri saari feelings dekho. Iske har page mein hamari ek memory hai, har paragraph mein hamari kahani ka ek hissa hai, aur har word mein woh baatein hain jo main tumse kehna chahti thi. ❤️</p><p>Mujhe nahi pata hamara future bilkul kaisa hoga, lekin main itna zaroor chahti hoon ki hum dono ek-doosre ko samajhte rahein, ek-doosre ki feelings ki kadar karein aur jab bhi koi problem aaye, use pyaar aur samajhdaari se solve karne ki koshish karein. Main apni galtiyon par kaam karna chahti hoon, tumhe apne actions se dikhana chahti hoon ki tumhari baatein mere liye matter karti hain. Main chahti hoon ki tum mere saath khush raho, apni baatein bina dare keh sako aur tumhe kabhi aisa na lage ki tumhari feelings suni nahi ja rahi hain.</p><p>Aur bachuu, ek baat yaad rakhna — hamari story ek game ki request se shuru hui thi. Tumhari sister, woh Faah Faah meme, hamara game haarna, gaon ki light jaana, Instagram par baatein, tumhara 93 wala secret, tumhari jealousy, mera chup rehna aur phir 30 July ko tumhara mujhse poochhna ki kya main tumhari girlfriend banna chahti hoon — ye sab meri favourite memories hain. Agar koi mujhse poochhe ki hamari kahani ka sabse pyaara hissa kya hai, toh shayad main ek pal ka naam nahi le paungi, kyunki mere liye ye poori kahani hi special hai. 🥹💗</p><p>Main perfect nahi hoon, bachuu, aur na hi hamari relationship hamesha perfect hogi. Lekin main chahti hoon ki hum dono ek-doosre ke liye behtar bante rahein. Main tumhe sirf bade-bade promises nahi dena chahti; main chahti hoon ki waqt ke saath tum meri koshishon mein mera pyaar dekh sako. Tumhari khushi mere liye important hai, tumhari feelings important hain, aur tumhara birthday mere liye ek mauka hai tumhe ye sab yaad dilane ka.</p><p>Happy Birthday, mera pyaara sa bachuu. ❤️🎂 Tum hamesha khush raho, tumhare chehre ki smile bani rahe, tumhari life mein bahut saari achhi cheezein aayein aur tumhe woh sab mile jiske tum sapne dekhte ho. Aur agar kabhi tumhe apni life ka ye chhota sa chapter dobara padhna ho, toh is surprise ko khol lena aur yaad karna ki kahin ek Himani hai jo tumhari story ke har chhote-bade moment ko apne dil mein sambhaal kar rakhna chahti hai.</p><p>Tumhara birthday hai, isliye aaj ki last line bhi tumhare liye — I love you, mera bachuu. Happy Birthday, Fareed. Hamari kahani ka ye page khatam ho raha hai, lekin main chahti hoon ki hamari kahani mein aage bhi bahut saare khoobsurat pages judte rahein. 🥹❤️🫶🏻</p></article>
+    <div class="end-flourish">♡ &nbsp; ✧ &nbsp; ♡</div><div class="extra-letter"><p>Aur jab tum ye aakhri page padh lo, toh please is surprise ko sirf website mat samajhna. 🥹💗 Ye meri taraf se tumhare liye ek chhota sa memory-box hai — jisme hamari shuruaat, hamari masti, hamari feelings, hamari mistakes aur unse seekhne ki meri wish sab rakhi hai. Main chahti hoon ki tum isse padhkar smile karo, kuch moments par hanso, kuch par emotional ho jao aur sabse zyada ye mehsoos karo ki tumhari kahani mere liye important hai. Happy Birthday mere pyaare Fareed. Tumhara din khushiyon, sukoon, pyaar aur tumhari favourite gulab jamun wali sweetness se bhara rahe. 🎂🍯🌙⭐💗🧸💌</p></div>
+  </div>
+</section>
+
+<div class="controls">
+ <button class="navbtn" id="prevBtn" onclick="go(current-1)" disabled>← Back</button>
+ <div class="progresswrap"><span id="sceneCount">00 / 10</span><div class="progress"><span id="progressBar"></span></div></div>
+ <button class="navbtn primary" id="nextBtn" onclick="go(current+1)">Start ✨</button>
+</div>
+<script>
+const scenes=[...document.querySelectorAll('.scene')];
+let current=0;
+const prevBtn=document.getElementById('prevBtn'),nextBtn=document.getElementById('nextBtn');
+const count=document.getElementById('sceneCount'),bar=document.getElementById('progressBar');
+function go(n){
+ if(n<0||n>=scenes.length)return;
+ const old=scenes[current]; old.classList.remove('active'); old.classList.add('leaving');
+ const previous=current; current=n;
+ scenes.forEach((s,i)=>{if(i!==current){s.classList.remove('active');}});
+ scenes[current].classList.remove('leaving'); scenes[current].classList.add('active');
+ setTimeout(()=>old.classList.remove('leaving'),650);
+ prevBtn.disabled=current===0; nextBtn.disabled=current===scenes.length-1;
+ nextBtn.textContent=current===0?'Start ✨':current===scenes.length-1?'The End ♥':'Next ✨';
+ count.textContent=String(current).padStart(2,'0')+' / '+String(scenes.length-1).padStart(2,'0');
+ bar.style.width=(current/(scenes.length-1)*100)+'%';
+ if(current===scenes.length-1)shootingStarBurst();
+ tryStartMusic();
+}
+const song=document.getElementById('song'),musicBtn=document.getElementById('musicBtn'),musicLabel=document.getElementById('musicLabel');
+async function toggleMusic(){
+ if(song.paused){try{await song.play();musicBtn.textContent='Ⅱ';musicLabel.textContent='Our song is playing 🎵';}catch(e){musicLabel.textContent='Tap again to play 🎵';}}
+ else{song.pause();musicBtn.textContent='▶';musicLabel.textContent='Play our song 🎵';}
+}
+musicBtn.addEventListener('click',toggleMusic);
+function tryStartMusic(){if(song.paused){song.play().then(()=>{musicBtn.textContent='Ⅱ';musicLabel.textContent='Our song is playing 🎵';}).catch(()=>{});}}
+document.addEventListener('pointerdown',()=>{if(song.paused)tryStartMusic();},{once:true});
+song.addEventListener('pause',()=>{musicBtn.textContent='▶';});
+song.addEventListener('play',()=>{musicBtn.textContent='Ⅱ';});
+
+// Animated night sky: twinkling stars, a softly glowing crescent moon and shooting stars.
+const canvas=document.getElementById('sky'),ctx=canvas.getContext('2d');
+let W=0,H=0,stars=[],shooters=[];
+function resize(){
+ const dpr=Math.min(window.devicePixelRatio||1,2);W=innerWidth;H=innerHeight;
+ canvas.width=W*dpr;canvas.height=H*dpr;canvas.style.width=W+'px';canvas.style.height=H+'px';ctx.setTransform(dpr,0,0,dpr,0,0);
+ stars=Array.from({length:Math.min(300,Math.floor(W*H/3300))},()=>({x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.5+.25,a:Math.random()*.65+.2,s:Math.random()*.018+.004,p:Math.random()*6.28}));
+}
+function spawnShooter(){
+ shooters.push({x:Math.random()*W*.8+W*.1,y:Math.random()*H*.35,vx:-(Math.random()*5+5),vy:Math.random()*3+2,len:Math.random()*100+70,life:0,max:Math.random()*35+32});
+}
+function shootingStarBurst(){for(let i=0;i<4;i++)setTimeout(spawnShooter,i*280);}
+let frame=0;
+function draw(){
+ frame++;ctx.clearRect(0,0,W,H);
+ // soft distant moon-glow in the upper-right
+ const g=ctx.createRadialGradient(W*.82,H*.14,2,W*.82,H*.14,Math.min(W,H)*.32);
+ g.addColorStop(0,'rgba(255,225,161,0.09)');g.addColorStop(1,'rgba(255,225,161,0)');ctx.fillStyle=g;ctx.fillRect(0,0,W,H);
+ for(const s of stars){s.p+=s.s;const alpha=s.a*(.58+.42*Math.sin(s.p));ctx.globalAlpha=alpha;ctx.fillStyle='#fff4d7';ctx.beginPath();ctx.arc(s.x,s.y,s.r,0,Math.PI*2);ctx.fill();}
+ ctx.globalAlpha=1;
+ if(frame%125===0&&Math.random()>.18)spawnShooter();
+ shooters=shooters.filter(s=>s.life<s.max);
+ for(const s of shooters){s.x+=s.vx;s.y+=s.vy;s.life++;const fade=1-s.life/s.max;const grad=ctx.createLinearGradient(s.x,s.y,s.x-s.vx*s.len/10,s.y-s.vy*s.len/10);grad.addColorStop(0,'rgba(255,239,192,0)');grad.addColorStop(1,'rgba(255,239,192,'+(fade*.9)+')');ctx.strokeStyle=grad;ctx.lineWidth=1.8;ctx.beginPath();ctx.moveTo(s.x,s.y);ctx.lineTo(s.x-s.vx*s.len/10,s.y-s.vy*s.len/10);ctx.stroke();ctx.fillStyle='rgba(255,246,215,'+fade+')';ctx.beginPath();ctx.arc(s.x,s.y,1.8,0,Math.PI*2);ctx.fill();}
+ ctx.globalAlpha=1;requestAnimationFrame(draw);
+}
+window.addEventListener('resize',resize);resize();draw();
+document.addEventListener('keydown',e=>{if(e.key==='ArrowRight')go(current+1);if(e.key==='ArrowLeft')go(current-1);});
+</script>
+</body></html>
